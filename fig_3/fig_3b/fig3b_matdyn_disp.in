@@ -1,0 +1,6 @@
+&input
+  asr = 'simple',
+  flfrc = 'fig3b_ni.fc',
+  flfrq = 'fig3b_ni.disp',
+/
+

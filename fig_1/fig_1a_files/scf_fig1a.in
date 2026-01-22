@@ -1,0 +1,37 @@
+&control
+  calculation   = 'scf',
+  prefix        = 'fig1a',
+  outdir        = './tmp_fig1a',
+  pseudo_dir    = './pseudo',
+  tstress       = .true.,
+  tprnfor       = .true.
+/
+&system
+  ibrav      = 0,
+  nat        = 23,
+  ntyp       = 1,
+  ecutwfc    = 50.0,
+  ecutrho    = 400.0,
+  occupations= 'smearing',
+  smearing   = 'mp',
+  degauss    = 0.02,
+  nbnd       = 200,
+  nspin      = 1
+/
+&electrons
+  conv_thr    = 1.0d-8,
+  mixing_beta = 0.4
+/
+ATOMIC_SPECIES
+Au 196.96657 Au.pbe-spn-rrkjus_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+25.0  0.0  0.0
+0.0  25.0  0.0
+0.0   0.0  35.0
+
+ATOMIC_POSITIONS angstrom
+! For best results, paste relaxed positions here from relax_fig1a.out
+
+K_POINTS automatic
+1 1 16 0 0 0

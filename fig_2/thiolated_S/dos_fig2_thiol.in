@@ -1,0 +1,9 @@
+&DOS
+  prefix = 'fig2_thiol',
+  outdir = './tmp_fig2_thiol',
+  DeltaE = 0.01,
+  Emin   = -10.0,
+  Emax   = 10.0,
+  fildos = 'fig2_thiol_dos.dat'
+/
+

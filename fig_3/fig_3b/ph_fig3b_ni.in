@@ -1,0 +1,9 @@
+&inputph
+  tr2_ph = 1.0d-14,
+  prefix = 'fig3b_ni',
+  outdir = './tmp_fig3b_ni',
+  fildyn = 'fig3b_ni.dyn',
+  ldisp  = .true.,
+  nq1 = 1, nq2 = 1, nq3 = 8
+/
+

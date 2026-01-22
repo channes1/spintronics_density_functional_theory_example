@@ -1,0 +1,8 @@
+&inputpp
+  prefix = 'fig4_co_thiol',
+  outdir = './tmp_fig4_co',
+  write_mmn = .true.,
+  write_amn = .true.,
+  write_unk = .true.,
+/
+

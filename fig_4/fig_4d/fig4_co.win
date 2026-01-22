@@ -1,0 +1,16 @@
+seedname = fig4_co
+num_wann = 48
+num_bands = 320
+dis_win_min = -10.0
+dis_win_max = 10.0
+begin projections
+Au: s; d
+S: p
+Co: s; d
+end projections
+mp_grid = 4 4 64
+begin kpoints
+automatic
+4 4 64 0 0 0
+end kpoints
+

@@ -1,0 +1,20 @@
+&inputepw
+  prefix = 'fig4_thiol',
+  outdir = './tmp_fig4_thiol',
+  wannierize = .true.,
+  # DFT coarse grids used to compute wavefunctions and phonons
+  nk1 = 4, nk2 = 4, nk3 = 64,
+  nq1 = 1, nq2 = 1, nq3 = 4,
+  # Fine interpolation grids (for transport you will want dense grids)
+  nkf1 = 12, nkf2 = 12, nkf3 = 192,
+  nqf1 = 1, nqf2 = 1, nqf3 = 192,
+  # energy window for interpolation
+  emin = -10.0, emax = 10.0,
+  # smearing for electronic delta
+  degaussw = 0.01,
+  # outputs
+  gkk_file = 'gkk.h5',
+  g_R_file = 'g_R.h5',      ! Wannier representation of el-ph couplings
+  # other recommended EPW settings can be added as needed
+/
+

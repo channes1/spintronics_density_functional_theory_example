@@ -1,0 +1,53 @@
+&control
+  calculation   = 'relax',
+  prefix        = 'fig3a_ni',
+  outdir        = './tmp_fig3a_ni',
+  pseudo_dir    = './pseudo',
+  tstress       = .false.,
+  tprnfor       = .true.,
+  forc_conv_thr = 1.0d-4,
+  etot_conv_thr = 1.0d-5
+/
+&system
+  ibrav      = 0,
+  nat        = 7,
+  ntyp       = 3,
+  ecutwfc    = 60.0,
+  ecutrho    = 480.0,
+  occupations= 'smearing',
+  smearing   = 'mp',
+  degauss    = 0.02,
+  nbnd       = 60,
+  nspin      = 2,
+  starting_magnetization(3) = 0.6
+/
+&electrons
+  conv_thr    = 1.0d-8,
+  mixing_beta = 0.3
+/
+&ions
+  ion_dynamics = 'bfgs',
+  pot_extrapolation = 'second_order'
+/
+ATOMIC_SPECIES
+Au 196.96657 Au.pbe-spn-rrkjus_psl.1.0.0.UPF
+S   32.065    S.pbe-n-rrkjus_psl.1.0.0.UPF
+Ni  58.6934   Ni.pbe-spn-rrkjus_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+30.0  0.0  0.0
+0.0  30.0  0.0
+0.0   0.0  30.0
+
+ATOMIC_POSITIONS angstrom
+Au   0.000000   0.000000  -8.652000
+S    0.000000   0.000000  -5.768000
+Au   0.000000   0.000000  -2.884000
+Ni   0.000000   0.000000   0.000000
+Au   0.000000   0.000000   2.884000
+S    0.000000   0.000000   5.768000
+Au   0.000000   0.000000   8.652000
+
+K_POINTS automatic
+1 1 1 0 0 0
+

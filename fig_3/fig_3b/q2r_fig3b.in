@@ -1,0 +1,6 @@
+&input
+  fildyn = 'fig3b_ni.dyn',
+  flfrc  = 'fig3b_ni.fc',
+  zasr   = 'simple'
+/
+

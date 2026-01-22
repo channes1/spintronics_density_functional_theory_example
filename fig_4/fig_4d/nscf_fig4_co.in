@@ -1,0 +1,38 @@
+&control
+  calculation   = 'nscf',
+  prefix        = 'fig4_co_thiol',
+  outdir        = './tmp_fig4_co',
+  pseudo_dir    = './pseudo',
+  wf_collect    = .true.
+/
+&system
+  ibrav      = 0,
+  nat        = 23,
+  ntyp       = 3,
+  ecutwfc    = 60.0,
+  ecutrho    = 480.0,
+  occupations= 'fixed',
+  nbnd       = 320,
+  nspin      = 2,
+  starting_magnetization(3) = 0.6
+/
+&electrons
+  conv_thr    = 1.0d-8
+/
+ATOMIC_SPECIES
+Au 196.96657 Au.pbe-spn-rrkjus_psl.1.0.0.UPF
+S   32.065    S.pbe-n-rrkjus_psl.1.0.0.UPF
+Co  58.933195 Co.pbe-spn-rrkjus_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+25.0  0.0  0.0
+0.0  25.0  0.0
+0.0   0.0  40.0
+
+ATOMIC_POSITIONS angstrom
+# PLACEHOLDER: replaced by SLURM with relaxed coords
+<RELAXED_POSITIONS_WILL_BE_INSERTED>
+
+K_POINTS automatic
+4 4 64 0 0 0
+

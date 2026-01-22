@@ -1,0 +1,9 @@
+&DOS
+  prefix = 'fig1c',
+  outdir = './tmp_fig1c',
+  DeltaE = 0.01,
+  Emin   = -10.0,
+  Emax   = 10.0,
+  fildos = 'fig1c_dos.dat'
+/
+

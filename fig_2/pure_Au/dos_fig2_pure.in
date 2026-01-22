@@ -1,0 +1,9 @@
+&DOS
+  prefix = 'fig2_pure_au',
+  outdir = './tmp_fig2',
+  DeltaE = 0.01,
+  Emin   = -10.0,
+  Emax   = 10.0,
+  fildos = 'fig2_pure_dos.dat'
+/
+

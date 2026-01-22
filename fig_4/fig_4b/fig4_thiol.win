@@ -1,0 +1,16 @@
+num_wann = 40
+num_bands = 320
+dis_win_min = -10.0
+dis_win_max = 10.0
+begin projections
+Au: s; d
+S: p
+end projections
+mp_grid = 4 4 64
+exclude_bands = 
+spinors = .false.
+begin kpoints
+automatic
+4 4 64 0 0 0
+end kpoints
+

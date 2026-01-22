@@ -1,0 +1,9 @@
+&input
+  asr = 'simple',
+  flfrc = 'fig3c_ni.fc',
+  flfrq = 'fig3c_ni.dense.freq',
+  flvec = 'fig3c_ni.dense.vec'   ! write eigenvectors for each q (needed for 
+projection)
+/
+# q-point list follows (script will write many q-points along z)
+

@@ -1,0 +1,9 @@
+&inputph
+  tr2_ph = 1.0d-14,
+  prefix = 'fig4_thiol',
+  outdir = './tmp_fig4_thiol',
+  fildyn = 'fig4_thiol.dyn',
+  ldisp  = .true.,
+  nq1 = 1, nq2 = 1, nq3 = 4
+/
+

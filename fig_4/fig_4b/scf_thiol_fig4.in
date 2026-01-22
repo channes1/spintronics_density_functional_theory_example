@@ -1,0 +1,38 @@
+&control
+  calculation   = 'scf',
+  prefix        = 'fig4_thiol',
+  outdir        = './tmp_fig4_thiol',
+  pseudo_dir    = './pseudo',
+  verbosity     = 'high'
+/
+&system
+  ibrav      = 0,
+  nat        = 23,
+  ntyp       = 2,
+  ecutwfc    = 60.0,
+  ecutrho    = 480.0,
+  occupations= 'smearing',
+  smearing   = 'mp',
+  degauss    = 0.02,
+  nbnd       = 260,
+  nspin      = 1
+/
+&electrons
+  conv_thr    = 1.0d-8,
+  mixing_beta = 0.3
+/
+ATOMIC_SPECIES
+Au 196.96657 Au.pbe-spn-rrkjus_psl.1.0.0.UPF
+S   32.065    S.pbe-n-rrkjus_psl.1.0.0.UPF
+
+CELL_PARAMETERS angstrom
+25.0  0.0  0.0
+0.0  25.0  0.0
+0.0   0.0  40.0
+
+ATOMIC_POSITIONS angstrom
+# placeholder — will be replaced by SLURM with relaxed coords
+... (same block as relax, will be overwritten)
+K_POINTS automatic
+1 1 16 0 0 0
+

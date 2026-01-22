@@ -1,0 +1,17 @@
+&inputpw
+  prefix = 'fig2_ni',
+  outdir = './tmp_fig2_ni',
+  ndos = 501
+/
+&inputcond
+  energy_min = -5.0,
+  energy_max = 5.0,
+  energy_step = 0.01,
+  nspin = 2,
+  nk1 = 1, nk2 = 1, nk3 = 64,
+  calculate_transmission = .true.,
+  lead(1) = 'au_lead',
+  lead(2) = 'au_lead',
+  conductor = 'fig2_ni'
+/
+

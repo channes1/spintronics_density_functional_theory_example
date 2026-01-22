@@ -1,0 +1,10 @@
+&projwfc
+  prefix  = 'fig2_pure_au',
+  outdir  = './tmp_fig2',
+  DeltaE  = 0.01,
+  degauss = 0.02,
+  Emin    = -10.0,
+  Emax    = 10.0,
+  filpdos = 'fig2_pdos'
+/
+
