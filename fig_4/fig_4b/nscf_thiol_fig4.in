@@ -31,5 +31,5 @@ ATOMIC_POSITIONS angstrom
 # placeholder — replaced by SLURM
 ... 
 K_POINTS automatic
-4 4 64 0 0 0   # dense along chain (z) — adjust if necessary
+4 4 1 0 0 0   # dense along chain (z) — adjust if necessary
 
