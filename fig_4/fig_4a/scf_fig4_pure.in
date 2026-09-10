@@ -33,5 +33,5 @@ ATOMIC_POSITIONS angstrom
 # placeholder — replaced by SLURM
 <RELAXED_POSITIONS_WILL_BE_INSERTED>
 K_POINTS automatic
-1 1 16 0 0 0
+1 1 1 0 0 0
 
