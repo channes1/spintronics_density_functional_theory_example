@@ -32,4 +32,4 @@ ATOMIC_POSITIONS angstrom
 ! Use the same (relaxed) positions as in scf_fig1a.in
 
 K_POINTS automatic
-1 1 64 0 0 0
+1 1 1 0 0 0
