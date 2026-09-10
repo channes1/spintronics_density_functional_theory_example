@@ -4,12 +4,12 @@
   wannierize = .true.,
 
   # coarse DFT grids used
-  nk1 = 4, nk2 = 4, nk3 = 64,
-  nq1 = 1, nq2 = 1, nq3 = 4,
+  nk1 = 4, nk2 = 4, nk3 = 1,
+  nq1 = 1, nq2 = 1, nq3 = 1,
 
   # fine interpolation grids for EPW (transport needs very dense q/k)
-  nkf1 = 12, nkf2 = 12, nkf3 = 192,
-  nqf1 = 1, nqf2 = 1, nqf3 = 192,
+  nkf1 = 12, nkf2 = 12, nkf3 = 1,
+  nqf1 = 1, nqf2 = 1, nqf3 = 1,
 
   emin = -10.0, emax = 10.0,
   degaussw = 0.01,
@@ -20,4 +20,3 @@
 
   # change other EPW params as required for convergence
 /
-
