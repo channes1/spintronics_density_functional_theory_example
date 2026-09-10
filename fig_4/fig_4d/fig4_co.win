@@ -8,9 +8,9 @@ Au: s; d
 S: p
 Co: s; d
 end projections
-mp_grid = 4 4 64
+mp_grid = 4 4 1
 begin kpoints
 automatic
-4 4 64 0 0 0
+4 4 1 0 0 0
 end kpoints
 
