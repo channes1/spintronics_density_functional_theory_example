@@ -33,6 +33,7 @@ CELL_PARAMETERS angstrom
 ATOMIC_POSITIONS angstrom
 # placeholder — will be replaced by SLURM with relaxed coords
 ... (same block as relax, will be overwritten)
+
 K_POINTS automatic
-1 1 16 0 0 0
+1 1 1 0 0 0
 
