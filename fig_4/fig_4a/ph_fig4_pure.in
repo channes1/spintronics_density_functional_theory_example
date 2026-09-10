@@ -4,6 +4,6 @@
   outdir = './tmp_fig4_pure',
   fildyn = 'fig4_pure.dyn',
   ldisp  = .true.,
-  nq1 = 1, nq2 = 1, nq3 = 4
+  nq1 = 1, nq2 = 1, nq3 = 1
 /
 
