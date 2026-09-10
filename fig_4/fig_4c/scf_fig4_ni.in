@@ -35,6 +35,7 @@ CELL_PARAMETERS angstrom
 ATOMIC_POSITIONS angstrom
 # PLACEHOLDER: will be replaced by SLURM with relaxed coordinates
 <RELAXED_POSITIONS_WILL_BE_INSERTED>
+
 K_POINTS automatic
-1 1 16 0 0 0
+1 1 11 0 0 0
 
